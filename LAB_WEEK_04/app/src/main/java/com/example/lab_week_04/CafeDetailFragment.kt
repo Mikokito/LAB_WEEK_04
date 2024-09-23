@@ -32,3 +32,5 @@ class CafeDetailFragment : Fragment() {
         view.findViewById<TextView>(R.id.content_description)
             ?.text = content
     }
+
+    companion object {
