@@ -33,3 +33,4 @@ class CafeFragment : Fragment() {
             tab.text = resources.getString(TABS_FIXED[position])
         }.attach()
     }
+}
