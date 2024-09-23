@@ -6,3 +6,5 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+
+private const val TAB_CONTENT = "TAB_CONTENT"
