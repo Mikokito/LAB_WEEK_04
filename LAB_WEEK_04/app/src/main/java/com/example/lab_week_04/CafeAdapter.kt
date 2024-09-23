@@ -22,3 +22,4 @@ class CafeAdapter(private val context: Context, fragmentManager: FragmentManager
 
     override fun getItemCount(): Int {
         return TABS_FIXED.size
+    }
