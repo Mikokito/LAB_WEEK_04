@@ -16,3 +16,4 @@ class CafeDetailFragment : Fragment() {
         super.onCreate(savedInstanceState)
         arguments?.let {
             content = it.getString(TAB_CONTENT)
+        }
