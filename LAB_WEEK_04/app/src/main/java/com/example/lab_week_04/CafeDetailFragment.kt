@@ -18,3 +18,5 @@ class CafeDetailFragment : Fragment() {
             content = it.getString(TAB_CONTENT)
         }
     }
+
+    override fun onCreateView(
