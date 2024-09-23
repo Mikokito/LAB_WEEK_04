@@ -41,3 +41,4 @@ class CafeDetailFragment : Fragment() {
                 }
             }
     }
+}
