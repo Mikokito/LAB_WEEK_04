@@ -13,3 +13,4 @@ class CafeDetailFragment : Fragment() {
     private var content: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
