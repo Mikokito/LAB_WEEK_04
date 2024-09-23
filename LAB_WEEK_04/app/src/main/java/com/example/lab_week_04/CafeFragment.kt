@@ -12,3 +12,4 @@ import com.google.android.material.tabs.TabLayoutMediator
 class CafeFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
