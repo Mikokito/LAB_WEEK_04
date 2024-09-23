@@ -25,3 +25,4 @@ class CafeAdapter(private val context: Context, fragmentManager: FragmentManager
     }
     override fun createFragment(position: Int): Fragment
     {
+        return CafeDetailFragment.newInstance(context.getString(TABS_CONTENT_FIXED[position]))
