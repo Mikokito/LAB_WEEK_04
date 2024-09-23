@@ -7,3 +7,4 @@ import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
 val TABS_FIXED = listOf(
+    R.string.starbucks_title,
