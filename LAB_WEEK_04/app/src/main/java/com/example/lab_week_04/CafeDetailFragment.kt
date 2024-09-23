@@ -34,3 +34,4 @@ class CafeDetailFragment : Fragment() {
     }
 
     companion object {
+        fun newInstance(content: String) =
