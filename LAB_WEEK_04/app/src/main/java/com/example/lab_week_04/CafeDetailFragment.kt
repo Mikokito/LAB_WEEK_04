@@ -38,3 +38,4 @@ class CafeDetailFragment : Fragment() {
             CafeDetailFragment().apply {
                 arguments = Bundle().apply {
                     putString(TAB_CONTENT, content)
+                }
