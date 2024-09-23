@@ -29,3 +29,4 @@ class CafeFragment : Fragment() {
         val tabLayout = view.findViewById<TabLayout>(R.id.tab_layout)
         val adapter = CafeAdapter(requireContext(), childFragmentManager, lifecycle)
         viewPager.adapter = adapter
+        TabLayoutMediator(tabLayout, viewPager) { tab, position ->
