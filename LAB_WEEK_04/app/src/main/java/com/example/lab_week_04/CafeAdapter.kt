@@ -24,3 +24,4 @@ class CafeAdapter(private val context: Context, fragmentManager: FragmentManager
         return TABS_FIXED.size
     }
     override fun createFragment(position: Int): Fragment
+    {
