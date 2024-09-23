@@ -31,3 +31,4 @@ class CafeDetailFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         view.findViewById<TextView>(R.id.content_description)
             ?.text = content
+    }
