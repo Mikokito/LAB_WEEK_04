@@ -13,3 +13,4 @@ val TABS_FIXED = listOf(
 )
 
 val TABS_CONTENT_FIXED = listOf(
+    R.string.starbucks_desc,
