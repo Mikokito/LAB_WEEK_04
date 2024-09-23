@@ -32,3 +32,4 @@ class CafeFragment : Fragment() {
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
             tab.text = resources.getString(TABS_FIXED[position])
         }.attach()
+    }
