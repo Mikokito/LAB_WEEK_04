@@ -40,3 +40,4 @@ class CafeDetailFragment : Fragment() {
                     putString(TAB_CONTENT, content)
                 }
             }
+    }
