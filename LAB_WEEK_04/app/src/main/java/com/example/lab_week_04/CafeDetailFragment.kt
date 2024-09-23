@@ -17,3 +17,4 @@ class CafeDetailFragment : Fragment() {
         arguments?.let {
             content = it.getString(TAB_CONTENT)
         }
+    }
