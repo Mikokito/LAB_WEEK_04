@@ -17,3 +17,5 @@ val TABS_CONTENT_FIXED = listOf(
     R.string.janjijiwa_desc,
     R.string.kopikenangan_desc,
 )
+
+class CafeAdapter(private val context: Context, fragmentManager: FragmentManager, lifecycle: Lifecycle) : FragmentStateAdapter(fragmentManager, lifecycle) {
