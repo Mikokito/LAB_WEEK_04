@@ -21,3 +21,4 @@ val TABS_CONTENT_FIXED = listOf(
 class CafeAdapter(private val context: Context, fragmentManager: FragmentManager, lifecycle: Lifecycle) : FragmentStateAdapter(fragmentManager, lifecycle) {
 
     override fun getItemCount(): Int {
+        return TABS_FIXED.size
