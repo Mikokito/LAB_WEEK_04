@@ -27,3 +27,4 @@ class CafeAdapter(private val context: Context, fragmentManager: FragmentManager
     {
         return CafeDetailFragment.newInstance(context.getString(TABS_CONTENT_FIXED[position]))
     }
+}
