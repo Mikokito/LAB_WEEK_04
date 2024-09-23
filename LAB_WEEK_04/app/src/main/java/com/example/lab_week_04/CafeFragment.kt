@@ -28,3 +28,4 @@ class CafeFragment : Fragment() {
         val viewPager = view.findViewById<ViewPager2>(R.id.view_pager)
         val tabLayout = view.findViewById<TabLayout>(R.id.tab_layout)
         val adapter = CafeAdapter(requireContext(), childFragmentManager, lifecycle)
+        viewPager.adapter = adapter
