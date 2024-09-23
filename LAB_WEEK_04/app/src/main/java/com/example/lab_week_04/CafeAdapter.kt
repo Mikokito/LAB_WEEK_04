@@ -12,3 +12,4 @@ val TABS_FIXED = listOf(
     R.string.kopikenangan_title,
 )
 
+val TABS_CONTENT_FIXED = listOf(
